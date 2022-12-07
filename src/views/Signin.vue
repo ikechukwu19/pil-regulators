@@ -45,7 +45,7 @@
             <button
               class="sign otp"
             >
-              Sign up
+              Sign in
             </button>
             <br><br>
             <router-link
@@ -55,7 +55,7 @@
             >
             <p class="signin">
               Don't have an account?
-              <router-link to="/signup" class="link">Sign up</router-link>
+              <router-link to="/" class="link">Sign up</router-link>
             </p>
           </div>
         </form>
