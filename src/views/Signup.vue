@@ -33,19 +33,19 @@
             </span>
           </div>
           <div class="full">
-            <label for="email" class="">Email address</label>
-            <input
-              type="email"
-              id="email"
-              v-model="userDetails.email"
-              class=""/>
-          </div>
-          <div class="full">
             <label for="tel" class="">Phone number</label>
             <input
               type="tel"
               id="tel"
               v-model="userDetails.tel"
+              class=""/>
+          </div>
+          <div class="full">
+            <label for="email" class="">Email address</label>
+            <input
+              type="email"
+              id="email"
+              v-model="userDetails.email"
               class=""/>
           </div>
           <div class="full">
