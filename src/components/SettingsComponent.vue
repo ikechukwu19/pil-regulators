@@ -52,11 +52,8 @@
         <div
           class="toggle-btn"
           :class="[active ? 'bg-active' : '']"
-          @click="active = !active"
-        >
-          <div
-            
-            :class="{ 'active': active }"
+          @click="active = !active" >
+          <div :class="{ 'active': active }"
           ></div>
         </div>
       </div>
